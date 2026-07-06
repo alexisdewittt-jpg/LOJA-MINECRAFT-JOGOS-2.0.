@@ -58,7 +58,7 @@ function render() {
     pedidos.forEach(p => {
 
         const li = document.createElement("li");
-        li.textContent = `${p.nome} | ${p.nick} | ${p.id} | ${p.pacote}`;
+        li.textContent = `${p.nome} | ${p.nick}| ${p.pacote}`;
         hist.appendChild(li);
 
     });
@@ -73,7 +73,6 @@ btnPedido.onclick = () => {
     if (
         nome.value.trim() === "" ||
         nick.value.trim() === "" ||
-        idj.value.trim() === ""
     ) {
         alert("Preencha todos os campos.");
         return;
@@ -82,7 +81,6 @@ btnPedido.onclick = () => {
     const pedido = {
         nome: nome.value,
         nick: nick.value,
-        id: idj.value,
         pacote: pacote.value
     };
 
