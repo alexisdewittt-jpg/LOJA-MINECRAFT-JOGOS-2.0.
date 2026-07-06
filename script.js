@@ -72,7 +72,7 @@ btnPedido.onclick = () => {
 
     if (
         nome.value.trim() === "" ||
-        nick.value.trim() === "" ||
+        nick.value.trim() === "" 
     ) {
         alert("Preencha todos os campos.");
         return;
