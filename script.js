@@ -9,7 +9,6 @@ const pacotes = [
 // Elementos
 const nome = document.getElementById("nome");
 const nick = document.getElementById("nick");
-const idj = document.getElementById("idj");
 const pacote = document.getElementById("pacote");
 const status = document.getElementById("status");
 const cards = document.getElementById("cards");
@@ -98,7 +97,6 @@ btnPedido.onclick = () => {
 
 Nome: ${pedido.nome}
 Nick: ${pedido.nick}
-ID: ${pedido.id}
 Pacote: ${pedido.pacote}`;
 
     const url =
