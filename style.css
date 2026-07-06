@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f1117;
+    color:#fff;
+    font-family:Arial;
+}
+
+header{
+    background:linear-gradient(90deg,#008cff,#00d4ff);
+    padding:20px;
+    text-align:center;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.form,
+.panel,
+.hist{
+    background:#1b1f2a;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+input,
+select,
+button{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    background:#19b35b;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0f9448;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#aaa;
+}
